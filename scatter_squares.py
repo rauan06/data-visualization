@@ -11,5 +11,4 @@ plt.ylabel('And here', fontsize = 10)
 
 plt.axis([0, 100, 0, 10000])
 plt.tick_params('both', which="major", labelsize=10)
-plt.savefig('squares_plot.png', bbox_inches='tight')
 plt.show()
